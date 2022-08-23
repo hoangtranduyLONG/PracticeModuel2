@@ -74,7 +74,7 @@ public class ManagerProduct {
 
     public void show() {
         for (int i = 0; i < products.size(); i++) {
-            if ((i + 1) % 3 == 0) {
+            if ((i + 1) % 5 == 0) {
                 System.out.println(products.get(i));
                 scanner.nextLine();
             } else {
